@@ -1,0 +1,61 @@
+body{
+    background-color: #efe;
+}
+body a{
+    color:#0a0;
+    text-decoration: none;
+
+}
+.header header{
+    background-color: #0a0;
+}
+.headerBadge span{
+    background-color: #fff;
+    color: #0a0;
+}
+.home{
+    margin: 10px;
+}
+.homeShoe{
+    height: 300px;
+    position: relative;
+    right: 50px;
+    top:30px;
+}
+.storeCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.storeCard{
+    margin: 10px;
+    width: 300px;
+}
+.storeCardImg{
+    width: 300px;
+}
+.cartCard{
+    margin-left: 10px;
+    padding: 10px;
+}
+.cartTableQtyNumber{
+    margin:0 10px ;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+footer{
+    background-color: rgba(0, 170, 0, 0.7);
+    display: inline-block;
+    padding: 0 5px;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+footer span{
+    color: red;
+}
